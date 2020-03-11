@@ -2,7 +2,7 @@
 def display_board
 cell = "   "
 row = cell + "|" + cell + "|"
-board = row * 3
+board = row * 3 * 3
 puts board
 end
 
